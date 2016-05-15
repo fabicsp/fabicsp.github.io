@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Form</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+  </head>
+  <body>
+
+    <form>
+      <h1> Profil </h1>
+      <div class="two">
+      <div class="personal">
+        <h2>Személyes adatok</h2>
+      <label for="name">Név*</label><br>
+      <input class="xyz" type="text" name="usrname" id="name" required><br>
+      <label for="year"> Születési éved:</label><br>
+      <input type="number" name="quantity" min="1900" max="2016"id="year" placeholder="pl. 1984">
+      <label for="sex"> Nemed:</label>
+      <input type="radio" name="radioh" value="féri" checked id="sex">
+      <input type="radio" name="radioh" value="nő"><br>
+      <label>Milyen márkákat szeretsz?</label><br>
+<div class="kisflex">
+    <div class="flexo">
+      <input type="checkbox" name="chess" value="Adidas">
+      <label>Adidas</label><br>
+      <input type="checkbox" name="chess" value="Coca-cola">
+      <label>Coca-cola</label><br>
+      <input type="checkbox" name="chess" value="Nike">
+      <label>Nike</label><br>
+      <input type="checkbox" name="chess" value="Ray-ban">
+      <label>Ray-ban</label><br>
+      <input type="checkbox" name="chess" value="Tesla">
+      <label>Tesla</label><br>
+    </div>
+        <div class="flext">
+      <input type="checkbox" name="checkers" value="Apple">
+      <label>Apple</label><br>
+      <input type="checkbox" name="checkers" value="Mazda">
+      <label>Mazda</label><br>
+      <input type="checkbox" name="checkers" value="Opel">
+      <label>Opel</label><br>
+      <input type="checkbox" name="checkers" value="Starbucks">
+      <label>Starbucks</label><br>
+      <input type="checkbox" name="chess" value="Yahoo">
+      <label>Yahoo</label><br>
+    </div>
+  </div>
+  <p>Többet is választhatsz</p>
+
+      </label>
+    </div>
+    <div class="Contact">
+      <h2> Kapcsolat</h2>
+      <label for="phonenum">Telefonszám*</label><br>
+      <input class="xyz" type="tel" pattern="^\d{4}-\d{3}-\d{4}$" required id="phonenum" placeholder="+36 -- --- ---"><br>
+      <label for="mailto">Email:*</label><br>
+      <input class="xyz" type="email" required id="mailto" placeholder="nev@domain.hu"><br>
+      <label for="fbpro">Facebook profilod</label><br>
+      <input class="xyz" id="fbpro" type="text" pattern="^@[A-Za-z0-9_]{1,15}$" placeholder="http://facebook.com/.."><br>
+      <label for="twitterpro">Twitter profilod</label><br/>
+      <input class="xyz" id="twitterpro" type="text" pattern="^@[A-Za-z0-9_]{1,15}$" required placeholder="http://twitter.com/.."><br>
+      <label>Milyen házban laksz?</label><br>
+      <select class="xyz" name="Milyen házban laksz?">
+        <label for="phonenum">Válasz ház típust</label><br>
+          <option value="None selected">Válassz típust</option>
+          <option value="Panel">Családi ház</option>
+          <option value="Panel">Panel</option>
+          <option value="lakokocsi">Lakókocsi</option>
+      </select>
+      </div>
+    </div>
+        <div class="textbox">
+        <label>Bemutatkozás*</label required><br>
+        <textarea name="comments" rows="5" maxlength="200" cols="50"placeholder="Írj magadról pár mondatot"></textarea> <br>
+      <label>  CV feltöltése: </label><br>
+        <button class="gombegy" type="submit" value="gombfile"> FILE KIVÁLASZTÁSA </button>
+      </label>
+      </div>
+      <div class="lastbox">
+<div class="nrone">
+      <div>
+        <input type="checkbox" name="checkers" value="accept">
+        <label>Elfogadom a felhasználói feltételeket</label><br>
+        <button class="gombketo" type="submit" value="Fálj feltöltése">  Mentés  </button>
+      </div>
+      <div>
+        <button class="gombharom" type="submit" value="Fálj feltöltése"> Űrlap törlése </button>
+      </div>
+    </div>
+
+
+  </form>
+</body>
