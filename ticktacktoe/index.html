@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Amoba</title>
+<link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="main">
+      <button onclick="localStorage.clear(), location.reload()">New Game</button>
+      <footer id="TextFooter"></footer>
+      <div class="first_line">
+        <p id="1" onclick="playerTurns(1)"></p>
+        <p id="2" onclick="playerTurns(2)"></p>
+        <p id="3" onclick="playerTurns(3)"></p>
+      </div>
+      <div class="second_line">
+        <p id="4" onclick="playerTurns(4)"></p>
+        <p id="5" onclick="playerTurns(5)"></p>
+        <p id="6" onclick="playerTurns(6)"></p>
+      </div>
+      <div class="third_line">
+        <p id="7" onclick="playerTurns(7)"></p>
+        <p id="8" onclick="playerTurns(8)"></p>
+        <p id="9" onclick="playerTurns(9)"></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
