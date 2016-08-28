@@ -58,7 +58,7 @@ function checkingTheWinner(){
     seven == "O" && eight == "O" && nine == "O" || one == "O" && four == "O" && seven == "O"||
     two == "O" && five == "O" && eight == "O" || three == "O" && six == "O" && nine == "O"||
     one == "O"&& five == "O" && nine == "O"|| three == "O" && five == "O" && seven == "O"){
-    document.getElementById("TextFooter").innerHTML = "Comupter Wins! Try it again!!"
+    document.getElementById("TextFooter").innerHTML = "Computer Wins! Try it again!!"
     isItReady = false
   }
 }
