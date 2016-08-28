@@ -18,7 +18,7 @@ function playerTurns(ID){
     document.getElementById(ID).innerHTML = "X";
     localStorage.setItem(ID, "X")
     checkingTheWinner()
-    setTimeout(machineTurns, 500);
+    machineTurns()
   }
 }
 
