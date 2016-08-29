@@ -3,6 +3,17 @@
 var isItReady = true;
 var maxTurns = 0;
 
+function turnonoff(){
+  currentvalue = document.getElementById('onoff').className;
+  if(currentvalue == "off"){
+    document.getElementById("onoff").className="on";
+    console.log(body.className);
+  }else{
+    document.getElementById("onoff").className="off";
+    document.getElementById("TextFooter").innerHTML = "Don't let 3 of your 'X' in the same row or <br> culomn"
+  }
+  console.log(currentvalue);
+}
 
 function getTheClosedInfos(){
   for(i = 1; i < 10; i++){
@@ -52,13 +63,17 @@ function checkingTheWinner(){
     seven == "X" && eight == "X" && nine == "X" || one == "X" && four == "X" && seven == "X"||
     two == "X" && five == "X" && eight == "X" || three == "X" && six == "X" && nine == "X"||
     one == "X"&& five == "X" && nine == "X"|| three == "X" && five == "X" && seven == "X" ){
+    if (document.getElementById("onoff").className="on"){
     document.getElementById("TextFooter").innerHTML = "Computer Wins! Try it again!!"
+  }else {document.getElementById("TextFooter").innerHTML = "Gratulation! You won!"}
     isItReady = false
   }else if (one == "O"  && two == "O" && three == "O" || four == "O" && five == "O" && six == "O" ||
     seven == "O" && eight == "O" && nine == "O" || one == "O" && four == "O" && seven == "O"||
     two == "O" && five == "O" && eight == "O" || three == "O" && six == "O" && nine == "O"||
     one == "O"&& five == "O" && nine == "O"|| three == "O" && five == "O" && seven == "O"){
+    if (document.getElementById("onoff").className="on"){
     document.getElementById("TextFooter").innerHTML = "Gratulation! You won!"
+  } else{document.getElementById("TextFooter").innerHTML = "Computer Wins! Try it again!!"}
     isItReady = false
   }
 }

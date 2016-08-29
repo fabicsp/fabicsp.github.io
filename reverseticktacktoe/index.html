@@ -5,8 +5,9 @@
 <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <div class="main">
+    <div class="on">
       <button onclick="localStorage.clear(), location.reload()">New Game</button>
+      <button id="onoff" onclick="turnonoff()" class="on">Think different :)</button>
       <footer id="TextFooter"></footer>
       <div class="first_line">
         <p id="1" onclick="playerTurns(1)"></p>

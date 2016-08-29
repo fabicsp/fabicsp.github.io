@@ -1,5 +1,10 @@
 body {
   background: url("blue.png");
+  background-size: cover;
+}
+.off {
+  background: url("green.jpg");
+  background-size: cover;
 }
 
 p {
@@ -38,7 +43,7 @@ p {
 button{
   font-size: 15px;
   font-weight: bold;
-  width: 120px;
+  width: 250px;
   height: 40px;
   border: 4px double #FC6;
   border-top-color: #FC9;
