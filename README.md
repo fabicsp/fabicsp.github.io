@@ -14,3 +14,6 @@
 
 ### TickTackToe Project to LogMeIn:
 * http://fabicsp.github.io/ticktacktoe
+
+* And try it with other game logic: Dont let the triple in a row :)
+* http://fabicsp.github.io/reverseticktacktoe
