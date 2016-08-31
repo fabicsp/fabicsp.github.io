@@ -24,6 +24,21 @@ function addPoints(x){
   }else{localStorage.setItem(1, parseInt(localStorage.getItem(1)) + parseInt(x))}
 }
 
+function letter_counter(s){
+  var letters = {}
+  s.split('').forEach(function(e){
+    if (!(e in letters)){
+      letters[e] = 1
+    }else{
+      letters[e] ++
+    }
+  });var size = 0, key;
+    for (key in letters) {
+        if (letters.hasOwnProperty(key)) size++;
+    }
+    return size;
+}
+
 function getCountries(input, theNumberID) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', url);
@@ -35,7 +50,7 @@ function getCountries(input, theNumberID) {
       e = e.toLowerCase()
       if (input === e){
         localStorage.setItem(theNumberID, input)
-        var pointToGet = input.length
+        var pointToGet = letter_counter(input)
         addPoints(pointToGet)
         alert("Gratulation, you get " + pointToGet + " point")
         document.getElementById('points').innerHTML = localStorage.getItem(1)
