@@ -41,7 +41,7 @@ function getCountries(input, theNumberID) {
         document.getElementById('points').innerHTML = localStorage.getItem(1)
       }
     });
+    alert ("Hey you! Try some another country! :)");
     }
 xhr.send();
-alert ("Hey you! Try some another country! :)");
 };
