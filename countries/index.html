@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Store</title>
+<link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Find as much as country you know.</h1>
+      <h4>Each character means +1 point. Uppercase-lowercase chars, and spaces are never mind. </h4>
+      <input type="text" class="inputString">
+      <!-- <button onclick="getCountries()">Store</button> -->
+      <button onclick="checkTheLocal()">Submit</button>
+      <footer id="TextFooter"></footer>
+    </div>
+    <button onclick="localStorage.clear(), location.reload()">New Game</button>
+    <div>You score:</div>
+    <div id="points"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
