@@ -43,5 +43,5 @@ function getCountries(input, theNumberID) {
     });
     }
 xhr.send();
-// alert ("Hey you! Try another country. You can do It better!");
+alert ("Hey you! Try some another country! :)");
 };
