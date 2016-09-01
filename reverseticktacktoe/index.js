@@ -64,16 +64,16 @@ function checkingTheWinner(){
     two == "X" && five == "X" && eight == "X" || three == "X" && six == "X" && nine == "X"||
     one == "X"&& five == "X" && nine == "X"|| three == "X" && five == "X" && seven == "X" ){
     if (document.getElementById("onoff").className="on"){
-    document.getElementById("TextFooter").innerHTML = "Computer Wins! Try it again!!"
-  }else {document.getElementById("TextFooter").innerHTML = "Gratulation! You won!"}
+    document.getElementById("TextFooter").innerHTML = "Gratulation! You won!_________"
+  }else {document.getElementById("TextFooter").innerHTML = "Gratulation! You won!----------"}
     isItReady = false
   }else if (one == "O"  && two == "O" && three == "O" || four == "O" && five == "O" && six == "O" ||
     seven == "O" && eight == "O" && nine == "O" || one == "O" && four == "O" && seven == "O"||
     two == "O" && five == "O" && eight == "O" || three == "O" && six == "O" && nine == "O"||
     one == "O"&& five == "O" && nine == "O"|| three == "O" && five == "O" && seven == "O"){
     if (document.getElementById("onoff").className="on"){
-    document.getElementById("TextFooter").innerHTML = "Gratulation! You won!"
-  } else{document.getElementById("TextFooter").innerHTML = "Computer Wins! Try it again!!"}
+    document.getElementById("TextFooter").innerHTML = "Computer Wins! Try it again!!---------"
+  } else{document.getElementById("TextFooter").innerHTML = "Computer Wins! Try it again!!________"}
     isItReady = false
   }
 }
