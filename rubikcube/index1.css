@@ -1,0 +1,40 @@
+.horizontal {
+  display: flex;
+  align-content: flex-start;
+}
+p {
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 20px;
+  margin: 2px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 90px;
+}
+.red {
+  background-color: #f90606;
+}
+.yellow {
+  background-color: #f9f506;
+}
+.green {
+  background-color: #1df906;
+}
+.orange {
+  background-color: #f98406;
+}
+.blue {
+  background-color: #060af9;
+}
+.black {
+  background-color: #0b0a0a;
+}
+img{
+  width: 55px;
+  height: 55px;
+}
+.vertical {
+  margin-left: 55px;
+}
