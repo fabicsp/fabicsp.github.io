@@ -11,22 +11,23 @@ var table = [0,0,0,1,1,1,0,0,0,0,0,0,
   0,0,0,6,6,6,0,0,0,0,0,0,
 ];
 
-var shuffle = function (array) {
-   var count = array.length,
-   randomnumber,
-   temp;
-   while(count) {
-   randomnumber = Math.random() * count-- | 0;
-   temp = array[count];
-   array[count] = array[randomnumber];
-   array[randomnumber] = temp
-   }
-   return array;
-}
+// var shuffle = function (array) {
+//    var count = array.length,
+//    randomnumber,
+//    temp;
+//    while(count) {
+//    randomnumber = Math.random() * count-- | 0;
+//    temp = array[count];
+//    array[count] = array[randomnumber];
+//    array[randomnumber] = temp
+//    }
+//    return array;
+// }
 
 var generatePositions = function (table){
   var replace = [1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6];
-  var newNumbers = shuffle(replace)
+  // var newNumbers = shuffle(replace)
+  var newNumbers = replace
   var replaceIndex = 0;
   var newTable = [];
   for(var i = 0; i < table.length; i++){
@@ -40,10 +41,21 @@ var generatePositions = function (table){
 
 var loadToInnerP = generatePositions(table)
 
+var replace = [1,1,1,1,1,1,1,1,1,
+               2,2,2,2,2,2,2,2,2,
+               3,3,3,3,3,3,3,3,3,
+               4,4,4,4,4,4,4,4,4,
+               5,5,5,5,5,5,5,5,5,
+               6,6,6,6,6,6,6,6,6
+             ];
+
+
+
 function reloadThePage(table){
   var elementList = document.querySelectorAll('p')
   for(var i = 0; i < 54; i ++){
     elementList[i].innerHTML = loadToInnerP[i]
+    // elementList[i].innerHTML = loadToInnerP[i]
     if (loadToInnerP[i] === 1){
       elementList[i].className = 'red'
     }else if (loadToInnerP[i] === 2){
@@ -74,6 +86,7 @@ function downRotateRight () {
   }
   reloadThePage(loadToInnerP)
 }
+
 function midleRotateRight () {
   var middleSor = [18,19,20,24,21,18,26,25,24,20,23,26]
   var newMiddleSor = []
@@ -115,6 +128,7 @@ function rightRotateRight () {
   }
   reloadThePage(loadToInnerP)
 }
+
 function downRotateLeft () {
   var middleSor = [53,50,47,51,52,53,45,48,51,47,46,45]
   var newMiddleSor = []
