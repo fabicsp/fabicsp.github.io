@@ -74,7 +74,47 @@ function downRotateRight () {
   }
   reloadThePage(loadToInnerP)
 }
+function midleRotateRight () {
+  var middleSor = [18,19,20,24,21,18,26,25,24,20,23,26]
+  var newMiddleSor = []
+  for(var i = 0; i < middleSor.length; i ++){
+    newMiddleSor.push(loadToInnerP[middleSor[i]]);
+  }
+  for(var i = 0; i<3; i ++){newMiddleSor.unshift(newMiddleSor.pop())}
+  // eltoljuk a sorokat 3 elemmel
+  for(var i = 0; i < middleSor.length; i++){
+    loadToInnerP.splice(middleSor[i], 1, newMiddleSor[i])
+  }
+  reloadThePage(loadToInnerP)
+}
 
+function rightRotateLeft () {
+  var middleSor = [44,41,38,42,43,44,36,39,42,38,37,36]
+  var newMiddleSor = []
+  for(var i = 0; i < middleSor.length; i ++){
+    newMiddleSor.push(loadToInnerP[middleSor[i]]);
+  }
+  for(var i = 0; i<3; i ++){newMiddleSor.unshift(newMiddleSor.pop())}
+  // eltoljuk a sorokat 3 elemmel
+  for(var i = 0; i < middleSor.length; i++){
+    loadToInnerP.splice(middleSor[i], 1, newMiddleSor[i])
+  }
+  reloadThePage(loadToInnerP)
+}
+
+function rightRotateRight () {
+  var middleSor = [36,37,38,42,39,36,44,43,42,38,41,44]
+  var newMiddleSor = []
+  for(var i = 0; i < middleSor.length; i ++){
+    newMiddleSor.push(loadToInnerP[middleSor[i]]);
+  }
+  for(var i = 0; i<3; i ++){newMiddleSor.unshift(newMiddleSor.pop())}
+  // eltoljuk a sorokat 3 elemmel
+  for(var i = 0; i < middleSor.length; i++){
+    loadToInnerP.splice(middleSor[i], 1, newMiddleSor[i])
+  }
+  reloadThePage(loadToInnerP)
+}
 function downRotateLeft () {
   var middleSor = [53,50,47,51,52,53,45,48,51,47,46,45]
   var newMiddleSor = []
@@ -116,8 +156,6 @@ function upperRotateLeft () {
   }
   reloadThePage(loadToInnerP)
 }
-
-
 
 function changeMidleLineRight() {
   var middleSor = [10,13,16,19,22,25,28,31,34,37,40,43]
@@ -246,11 +284,27 @@ function upperLeftArrowUpp(){
   for(var i = 0; i < middleSor.length; i++){
     loadToInnerP.splice(middleSor[i], 1, newMiddleSor[i])
   }
+  rightRotateLeft ()
   reloadThePage(loadToInnerP)
 }
 
 function upperLeftArrowDown(){
   var middleSor = [33,34,35,47,46,45,11,10,9,2,1,0]
+  var newMiddleSor = []
+  for(var i = 0; i < middleSor.length; i ++){
+    newMiddleSor.push(loadToInnerP[middleSor[i]]);
+  }
+  for(var i = 0; i<3; i ++){newMiddleSor.unshift(newMiddleSor.pop())}
+  // eltoljuk a sorokat 3 elemmel
+  for(var i = 0; i < middleSor.length; i++){
+    loadToInnerP.splice(middleSor[i], 1, newMiddleSor[i])
+  }
+  rightRotateRight ()
+  reloadThePage(loadToInnerP)
+}
+
+function midleRotateLeft () {
+  var middleSor = [26,23,20,24,25,26,18,21,24,20,19,18]
   var newMiddleSor = []
   for(var i = 0; i < middleSor.length; i ++){
     newMiddleSor.push(loadToInnerP[middleSor[i]]);
@@ -274,6 +328,7 @@ function upperRightArrowUpp(){
   for(var i = 0; i < middleSor.length; i++){
     loadToInnerP.splice(middleSor[i], 1, newMiddleSor[i])
   }
+  midleRotateLeft ()
   reloadThePage(loadToInnerP)
 }
 
@@ -288,5 +343,6 @@ function upperRightArrowDown(){
   for(var i = 0; i < middleSor.length; i++){
     loadToInnerP.splice(middleSor[i], 1, newMiddleSor[i])
   }
+  midleRotateRight ()
   reloadThePage(loadToInnerP)
 }
