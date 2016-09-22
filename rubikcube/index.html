@@ -1,42 +1,3 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="index1.css">
-    <link rel="icon" href="rubiks.gif">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div class="vertical">
-    <img src="upp.png"/>
-    <p id="0"></p>
-  </div>
-  <div class="horizontal">
-    <img src="left.png" id="left"/>
-    <p id="1"></p>
-    <p id="2"></p>
-    <p id="3"></p>
-    <p id="4"></p>
-    <p id="5"></p>
-    <p id="6"></p>
-    <p id="7"></p>
-    <p id="8"></p>
-    <p id="9"></p>
-    <p id="10"></p>
-    <p id="11"></p>
-    <p id="12"></p>
-    <img src="right.png"/>
-  </div>
-  <div class="vertical">
-    <p id="13"></p>
-    <img src="down.png"/>
-  </div>
-  <script src="index.js"></script>
-  </body>
-</html> -->
-
-
-
 <!doctype html>
 <html>
   <head>
@@ -47,9 +8,9 @@
     <button onclick="localStorage.clear(), location.reload()">New Game</button>
     <div class="main">
       <div class="images_upp_down">
-      <img src="upp.png"/>
-      <img src="upp.png"/>
-      <img src="upp.png"/>
+      <img src="upp.png" onclick="upperLeftArrowDown()"/>
+      <img src="upp.png" onclick="upperMidleArrowDown()"/>
+      <img src="upp.png" onclick="upperRightArrowDown()"/>
     </div>
     <div class="first_section">
       <div class="first_line">
@@ -70,9 +31,9 @@
     </div>
     <div class="second_section">
       <div class="images">
-      <img src="left.png" onclick="changeMidleLineLeft()"/>
-      <img src="left.png" />
-      <img src="left.png"/>
+      <img src="left.png" onclick="changeUpperLineLeft()"/>
+      <img src="left.png" onclick="changeMidleLineLeft()" />
+      <img src="left.png" onclick="changeDownLineLeft ()"/>
     </div>
       <div class="first_cube">
       <div class="first_line">
