@@ -40,14 +40,14 @@ var generatePositions = function (table){
 }
 
 var loadToInnerP = generatePositions(table)
-
-var replace = [1,1,1,1,1,1,1,1,1,
-               2,2,2,2,2,2,2,2,2,
-               3,3,3,3,3,3,3,3,3,
-               4,4,4,4,4,4,4,4,4,
-               5,5,5,5,5,5,5,5,5,
-               6,6,6,6,6,6,6,6,6
-             ];
+//
+// var replace = [1,1,1,1,1,1,1,1,1,
+//                2,2,2,2,2,2,2,2,2,
+//                3,3,3,3,3,3,3,3,3,
+//                4,4,4,4,4,4,4,4,4,
+//                5,5,5,5,5,5,5,5,5,
+//                6,6,6,6,6,6,6,6,6
+//              ];
 
 
 
@@ -71,6 +71,7 @@ function reloadThePage(table){
     }
   }
 }
+
 reloadThePage(table);
 
 function rotate (array) {
@@ -113,7 +114,6 @@ function changeMidleLineLeft() {
   }
   reloadThePage(loadToInnerP)
 }
-
 
 function changeUppLineRight () {
   var middleSor = [9,12,15,18,21,24,27,30,33,36,39,42]
@@ -302,6 +302,7 @@ function lastDLeftMove(){
   rotate (array)
   reloadThePage(loadToInnerP)
 }
+
 function lastDMidleLeftMove(){
   var middleSor = [39,40,41,46,49,52,23,22,21,7,4,1]
   var newMiddleSor = []
@@ -315,6 +316,7 @@ function lastDMidleLeftMove(){
   }
   reloadThePage(loadToInnerP)
 }
+
 function lastDMidleRightMove(){
   var middleSor = [1,4,7,21,22,23,52,49,46,41,40,39]
   var newMiddleSor = []
@@ -344,6 +346,7 @@ function lastDUpperToRight(){
   rotate(array)
   reloadThePage(loadToInnerP)
 }
+
 function lastDUpperToLeft(){
   var middleSor = [36,37,38,47,50,53,26,25,24,3,6,0]
   var newMiddleSor = []
@@ -358,4 +361,17 @@ function lastDUpperToLeft(){
   var array = [27,28,29,33,30,27,35,34,33,29,32,35]
   rotate(array)
   reloadThePage(loadToInnerP)
+}
+
+function mixIt (){
+  var randomMix = Math.floor(Math.random() * 400) + 200
+  console.log(randomMix);
+  for (var i = 0; i < randomMix; i++){
+    if(i % 7 === 0){
+      lastDUpperToLeft()
+    }
+    else if (i % 2 === 0) {
+      upperRightArrowUpp()
+    }else{upperMidleArrowUpp()}
+    }
 }
