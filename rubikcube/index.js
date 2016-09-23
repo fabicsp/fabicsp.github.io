@@ -57,17 +57,17 @@ function reloadThePage(table){
     elementList[i].innerHTML = loadToInnerP[i]
     // elementList[i].innerHTML = loadToInnerP[i]
     if (loadToInnerP[i] === 1){
-      elementList[i].className = 'red'
+      elementList[i].className = 'white'
     }else if (loadToInnerP[i] === 2){
-      elementList[i].className = 'blue'
+      elementList[i].className = 'red'
     }else if (loadToInnerP[i] === 3){
-      elementList[i].className = 'green'
+      elementList[i].className = 'blue'
     }else if (loadToInnerP[i] === 4){
       elementList[i].className = 'orange'
     }else if (loadToInnerP[i] === 5){
-      elementList[i].className = 'yellow'
+      elementList[i].className = 'green'
     }else {
-      elementList[i].className = 'white'
+      elementList[i].className = 'yellow'
     }
   }
 }
