@@ -1,6 +1,6 @@
 ### Rubik cube project, just for fun:
 * http://fabicsp.github.io/rubikcube
-* simulated the 3D moves, in 2 2 dimensions
+* simulated the 3D moves, in 2 dimensions
 
 ### Week 1:
 
