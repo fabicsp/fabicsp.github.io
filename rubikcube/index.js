@@ -369,6 +369,7 @@ function mixIt (){
   for (var i = 0; i < randomMix; i++){
     if(i % 7 === 0){
       lastDUpperToLeft()
+      upperLeftArrowDown()
     }
     else if (i % 2 === 0) {
       upperRightArrowUpp()

@@ -1,3 +1,7 @@
+### Rubik cube project, just for fun:
+* http://fabicsp.github.io/rubikcube
+* simulated the 3D moves, in 2 2 dimensions
+
 ### Week 1:
 
 * Build a CV page
@@ -21,4 +25,6 @@
 
 ### Country project to BlackSwan:
 * http://fabicsp.github.io/countries
+
+
 
