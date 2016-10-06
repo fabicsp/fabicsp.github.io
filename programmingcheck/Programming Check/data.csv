@@ -1,0 +1,101 @@
+id;source;university;country
+1;qs_world_university_ranking;MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT), US;United States of America
+2;qs_world_university_ranking;HARVARD UNIVERSITY, US;United States of America
+3;qs_world_university_ranking;UNIVERSITY OF CAMBRIDGE, GB;Great Britain
+4;qs_world_university_ranking;UCL (UNIVERSITY COLLEGE LONDON), GB;Great Britain
+5;qs_world_university_ranking;IMPERIAL COLLEGE LONDON, GB;Great Britain
+6;qs_world_university_ranking;UNIVERSITY OF OXFORD, GB;Great Britain
+7;qs_world_university_ranking;STANFORD UNIVERSITY, US;United States of America
+8;qs_world_university_ranking;YALE UNIVERSITY, US;United States of America
+9;qs_world_university_ranking;UNIVERSITY OF CHICAGO, US;United States of America
+10;qs_world_university_ranking;CALIFORNIA INSTITUTE OF TECHNOLOGY (CALTECH), US;United States of America
+11;qs_world_university_ranking;PRINCETON UNIVERSITY, US;United States of America
+12;qs_world_university_ranking;ETH ZURICH (SWISS FEDERAL INSTITUTE OF TECHNOLOGY), CH;Switzerland
+13;qs_world_university_ranking;UNIVERSITY OF PENNSYLVANIA, US;United States of America
+14;qs_world_university_ranking;COLUMBIA UNIVERSITY, US;United States of America
+15;qs_world_university_ranking;CORNELL UNIVERSITY, US;United States of America
+16;qs_world_university_ranking;JOHNS HOPKINS UNIVERSITY, US;United States of America
+17;qs_world_university_ranking;UNIVERSITY OF EDINBURGH, GB;Great Britain
+18;qs_world_university_ranking;UNIVERSITY OF TORONTO, CA;Canada
+19;qs_world_university_ranking;ECOLE POLYTECHNIQUE FÉDÉRALE DE LAUSANNE (EPFL), CH;Switzerland
+20;qs_world_university_ranking;KING'S COLLEGE LONDON (KCL), GB;Great Britain
+21;qs_world_university_ranking;MCGILL UNIVERSITY, CA;Canada
+22;qs_world_university_ranking;UNIVERSITY OF MICHIGAN, US;United States of America
+23;qs_world_university_ranking;DUKE UNIVERSITY, US;United States of America
+24;qs_world_university_ranking;NATIONAL UNIVERSITY OF SINGAPORE (NUS), SG;Singapore
+25;qs_world_university_ranking;UNIVERSITY OF CALIFORNIA, BERKELEY (UCB), US;United States of America
+26;qs_world_university_ranking;UNIVERSITY OF HONG KONG (HKU), HK;Hong Kong
+27;qs_world_university_ranking;AUSTRALIAN NATIONAL UNIVERSITY (ANU), AU;Australia
+28;qs_world_university_ranking;ECOLE NORMALE SUPÉRIEURE, PARIS (ENS PARIS), FR;France
+29;qs_world_university_ranking;NORTHWESTERN UNIVERSITY, US;United States of America
+30;qs_world_university_ranking;UNIVERSITY OF BRISTOL, GB;Great Britain
+31;qs_world_university_ranking;THE UNIVERSITY OF MELBOURNE, AU;Australia
+32;qs_world_university_ranking;THE UNIVERSITY OF TOKYO, JP;Japan
+33;qs_world_university_ranking;THE UNIVERSITY OF MANCHESTER, GB;Great Britain
+34;qs_world_university_ranking;THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (HKUST), HK;Hong Kong
+35;qs_world_university_ranking;KYOTO UNIVERSITY, JP;Japan
+36;qs_world_university_ranking;SEOUL NATIONAL UNIVERSITY (SNU), KR;South Korea
+37;qs_world_university_ranking;UNIVERSITY OF WISCONSIN-MADISON, US;United States of America
+38;qs_world_university_ranking;THE UNIVERSITY OF SYDNEY, AU;Australia
+39;qs_world_university_ranking;THE CHINESE UNIVERSITY OF HONG KONG (CUHK), HK;Hong Kong
+40;qs_world_university_ranking;UNIVERSITY OF CALIFORNIA, LOS ANGELES (UCLA), US;United States of America
+41;qs_world_university_ranking;ECOLE POLYTECHNIQUE PARISTECH, FR;France
+42;qs_world_university_ranking;NANYANG TECHNOLOGICAL UNIVERSITY (NTU), SG;Singapore
+43;qs_world_university_ranking;THE UNIVERSITY OF QUEENSLAND (UQ), AU;Australia
+44;qs_world_university_ranking;NEW YORK UNIVERSITY (NYU), US;United States of America
+45;qs_world_university_ranking;UNIVERSITY OF COPENHAGEN, DK;Danmark
+46;qs_world_university_ranking;PEKING UNIVERSITY, CN;China
+47;qs_world_university_ranking;BROWN UNIVERSITY, US;United States of America
+48;qs_world_university_ranking;TSINGHUA UNIVERSITY, CN;China
+49;qs_world_university_ranking;UNIVERSITY OF BRITISH COLUMBIA, CA;Canada
+50;qs_world_university_ranking;RUPRECHT-KARLS-UNIVERSITÄT HEIDELBERG, DE;Germany
+51;qs_world_university_ranking;UNIVERSITY OF GLASGOW, GB;Great Britain
+52;qs_world_university_ranking;THE UNIVERSITY OF NEW SOUTH WALES (UNSW), AU;Australia
+53;qs_world_university_ranking;TECHNISCHE UNIVERSITÄT MÜNCHEN, DE;Germany
+54;qs_world_university_ranking;UNIVERSITY OF NORTH CAROLINA, CHAPEL HILL, US;United States of America
+55;qs_world_university_ranking;OSAKA UNIVERSITY, JP;Japan
+56;qs_world_university_ranking;UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN, US;United States of America
+57;qs_world_university_ranking;CARNEGIE MELLON UNIVERSITY, US;United States of America
+58;qs_world_university_ranking;UNIVERSITY OF AMSTERDAM, NL;Netherlands
+59;qs_world_university_ranking;UNIVERSITY OF WASHINGTON, US;United States of America
+60;qs_world_university_ranking;KAIST - KOREA ADVANCED INSTITUTE OF SCIENCE AND TECHNOLOGY, KR;South Korea
+61;qs_world_university_ranking;TRINITY COLLEGE DUBLIN (TCD), IE;Ireland
+62;qs_world_university_ranking;UNIVERSITY OF BIRMINGHAM, GB;Great Britain
+63;qs_world_university_ranking;UNIVERSITY OF CALIFORNIA, SAN DIEGO (UCSD), US;United States of America
+64;qs_world_university_ranking;THE UNIVERSITY OF WARWICK, GB;Great Britain
+65;qs_world_university_ranking;LUDWIG-MAXIMILIANS-UNIVERSITÄT MÜNCHEN, DE;Germany
+66;qs_world_university_ranking;TOKYO INSTITUTE OF TECHNOLOGY, JP;Japan
+67;qs_world_university_ranking;LUND UNIVERSITY, SE;Sweden
+68;qs_world_university_ranking;LONDON SCHOOL OF ECONOMICS AND POLITICAL SCIENCE (LSE), GB;Great Britain
+69;qs_world_university_ranking;MONASH UNIVERSITY, AU;Australia
+70;qs_world_university_ranking;UNIVERSITY OF HELSINKI, FI;Finland
+71;qs_world_university_ranking;THE UNIVERSITY OF SHEFFIELD, GB;Great Britain
+72;qs_world_university_ranking;UNIVERSITY OF GENEVA, CH;Switzerland
+73;qs_world_university_ranking;UNIVERSITY OF TEXAS AT AUSTIN, US;United States of America
+74;qs_world_university_ranking;LEIDEN UNIVERSITY, NL;Netherlands
+75;qs_world_university_ranking;THE UNIVERSITY OF NOTTINGHAM, GB;Great Britain
+76;qs_world_university_ranking;TOHOKU UNIVERSITY, JP;Japan
+77;qs_world_university_ranking;KATHOLIEKE UNIVERSITEIT LEUVEN, BE;Belgium
+78;qs_world_university_ranking;UNIVERSITY OF ZURICH, CH;Switzerland
+79;qs_world_university_ranking;BOSTON UNIVERSITY, US;United States of America
+80;qs_world_university_ranking;UPPSALA UNIVERSITY, SE;Sweden
+81;qs_world_university_ranking;UTRECHT UNIVERSITY, NL;Netherlands
+82;qs_world_university_ranking;NATIONAL TAIWAN UNIVERSITY (NTU), TW;Taiwan
+83;qs_world_university_ranking;UNIVERSITY OF ST ANDREWS, GB;Great Britain
+84;qs_world_university_ranking;THE UNIVERSITY OF WESTERN AUSTRALIA (UWA), AU;Australia
+85;qs_world_university_ranking;UNIVERSITY OF CALIFORNIA, DAVIS (UCD), US;United States of America
+86;qs_world_university_ranking;UNIVERSITY OF SOUTHAMPTON, GB;Great Britain
+87;qs_world_university_ranking;WASHINGTON UNIVERSITY IN ST. LOUIS, US;United States of America
+88;qs_world_university_ranking;FUDAN UNIVERSITY, CN;China
+89;qs_world_university_ranking;UNIVERSITY OF OSLO, NO;Norway
+90;qs_world_university_ranking;DURHAM UNIVERSITY, GB;Great Britain
+91;qs_world_university_ranking;AARHUS UNIVERSITY, DK;Danmark
+92;qs_world_university_ranking;ERASMUS UNIVERSITY ROTTERDAM, NL;Netherlands
+93;qs_world_university_ranking;UNIVERSITÉ DE MONTRÉAL, CA;Canada
+94;qs_world_university_ranking;THE UNIVERSITY OF AUCKLAND, NZ;New Zealand
+95;qs_world_university_ranking;DELFT UNIVERSITY OF TECHNOLOGY, NL;Netherlands
+96;qs_world_university_ranking;UNIVERSITY OF ALBERTA, CA;Canada
+97;qs_world_university_ranking;UNIVERSITY OF GRONINGEN, NL;Netherlands
+98;qs_world_university_ranking;UNIVERSITY OF LEEDS, GB;Great Britain
+99;qs_world_university_ranking;GEORGIA INSTITUTE OF TECHNOLOGY (GEORGIA TECH), US;United States of America
+100;qs_world_university_ranking;NAGOYA UNIVERSITY, JP;Japan
