@@ -1,4 +1,7 @@
 /* tables */
+* {
+	background:url"background.jpg";
+	}	
 table.tablesorter {
 	font-family:arial;
 	background-color: #CDCDCD;
