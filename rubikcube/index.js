@@ -12,9 +12,7 @@ var table = [0,0,0,1,1,1,0,0,0,0,0,0,
 ];
 
 // var shuffle = function (array) {
-//    var count = array.length,
-//    randomnumber,
-//    temp;
+//    var count = array.length, randomnumber, temp;
 //    while(count) {
 //    randomnumber = Math.random() * count-- | 0;
 //    temp = array[count];
@@ -40,16 +38,6 @@ var generatePositions = function (table){
 }
 
 var loadToInnerP = generatePositions(table)
-//
-// var replace = [1,1,1,1,1,1,1,1,1,
-//                2,2,2,2,2,2,2,2,2,
-//                3,3,3,3,3,3,3,3,3,
-//                4,4,4,4,4,4,4,4,4,
-//                5,5,5,5,5,5,5,5,5,
-//                6,6,6,6,6,6,6,6,6
-//              ];
-
-
 
 function reloadThePage(table){
   var elementList = document.querySelectorAll('p')
