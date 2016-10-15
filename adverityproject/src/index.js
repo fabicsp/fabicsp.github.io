@@ -39,8 +39,6 @@ class BappApp extends React.Component {
       <div className="App">
         <h1>Choose chanel or campaign</h1>
         <div className="click-impression-container">
-
-
         </div>
         <div className="show-up-block"></div>
         <div>

@@ -59,7 +59,7 @@ class MarketingInfos extends React.Component {
         </div>
         <ul onClick={this.handleClick.bind(this)}>
           {filteredContacts.map((marketInfos)=>{
-            return <Contact  marketInfos={marketInfos} key={marketInfos.id}/>
+            return <Contact  marketInfos={marketInfos} item="Hello" key={marketInfos.id}/>
           })}
         </ul>
 
