@@ -16,19 +16,19 @@ var canvas = {
 };
 
 window.addEventListener("keypress", function (e) {
-  if (e.charCode == 45 && createdBalls >= 0) {
-    canvas.element.removeChild(this.canvas.element.childNodes[0])
-    createdBalls--;
-  }
-  else if (createdBalls >= 9){console.log("Maximum reached")}
-  else if(createdBalls < 9 && e.charCode == 43){
-    createdBalls++;
-    var xCoordinate =  Math.floor(Math.random() * canvas.width * 0.9);
-  	var yCoordinate =  Math.floor(Math.random() * canvas.height * 0.9);
-  	var randomNumber = Math.floor(Math.random() * colors.length);
-  	var selectedColor = colors[randomNumber];
-  	Ball.create(selectedColor, - randomNumber+3, - randomNumber*2).draw(xCoordinate, yCoordinate);
-  } else {console.log("Minimum reached")}
+	if (e.charCode == 45 && createdBalls >= 0) {
+		canvas.element.removeChild(this.canvas.element.childNodes[0])
+		createdBalls--;
+	}
+	else if (createdBalls >= 9){console.log("Maximum reached")}
+	else if(createdBalls < 9 && e.charCode == 43){
+		createdBalls++;
+		var xCoordinate =  Math.floor(Math.random() * canvas.width * 0.9);
+		var yCoordinate =  Math.floor(Math.random() * canvas.height * 0.9);
+		var randomNumber = Math.floor(Math.random() * colors.length);
+		var selectedColor = colors[randomNumber];
+		Ball.create(selectedColor, - randomNumber+3, - randomNumber*2).draw(xCoordinate, yCoordinate);
+	} else {console.log("Minimum reached")}
 });
 
 var Ball = {
