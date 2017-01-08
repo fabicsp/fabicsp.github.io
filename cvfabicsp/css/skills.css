@@ -6,7 +6,10 @@
 .technologies {
   display: flex;
   justify-content: flex-start;
-  margin-left: 5%;
+  padding-left: 5%;
+  border-width: 0px 2px 2px 0px;
+  border-color: green;
+  border-style: solid;
 }
 
 .technologies div {
@@ -17,7 +20,9 @@
   vertical-align:middle;
   display:table-cell;
 }
-
+h3{
+  
+}
 .skillpictures {
   width: 35px;
   height: 35px;
