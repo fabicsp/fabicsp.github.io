@@ -1,6 +1,6 @@
 window.onload = $(function(){
   // console.log("hi");
-  $(".tile").not(".contact").fadeOut();
+  // $(".tile").not(".contact").fadeOut();
 });
 
 $(function() {
