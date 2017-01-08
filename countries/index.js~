@@ -1,6 +1,6 @@
 'use strict';
 
-var url = 'http://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml'
+var url = 'https://api.myjson.com/bins/2chzc'
 document.getElementById('points').innerHTML = localStorage.getItem(1)
 
 function checkTheLocal(){
