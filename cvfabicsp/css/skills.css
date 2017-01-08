@@ -1,0 +1,26 @@
+.myskills {
+  /*background: #CC3232;*/
+  display: none;
+}
+
+.technologies {
+  display: flex;
+  justify-content: flex-start;
+}
+.technologies div {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  vertical-align:middle;
+  display:table-cell;
+
+}
+.skillpictures {
+  width: 35px;
+  height: 35px;
+}
+/*.skillpictures:first-child {
+  text-align: center;
+
+}*/

@@ -1,0 +1,35 @@
+.edu {
+  background:#00C5CD;
+  display: none;
+  background: url("../pictures/education.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2{
+  border-width: 2px 2px 0px 0px;
+  border-color: green;
+  border-style: solid;
+
+  padding: 20px 0 20px 0;
+  margin: 0 5px 15px 0 ;
+}
+.educations{
+  margin-bottom: 40px;
+}
+.educations, .work {
+  padding-left: 15px;
+}
+.worktasks li {
+  /*font-weight: bolder;*/
+  font-size: 16px;
+  padding-left: 1.5em;
+  margin-bottom: 10px;
+}
+.schools{
+  font-size: 18px;
+}
+.blackswanpro p, .blackswanpro ul {
+  font-size: 18px;
+}
