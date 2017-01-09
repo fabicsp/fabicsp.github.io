@@ -3,6 +3,8 @@
 }
 
 form{
+  width: 90%;
+  height: 70%;
   margin-left: 20px;
   padding: 20px 25px;
   margin: auto;
@@ -12,16 +14,16 @@ form{
 
 @media screen and (min-width:0px){
   form {
-    width: 90%;
-    height: 70%;
+    /*width: 90%;
+    height: 70%;*/
   }
 }
 
-    @media screen and (min-width:800px){
-      form {
-        width: 60%;
-        max-width: 700px;
-      }
+@media screen and (min-width:800px){
+  form {
+    width: 60%;
+    max-width: 700px;
+  }
 }
 
 form input,

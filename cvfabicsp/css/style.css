@@ -81,6 +81,7 @@ li:before {
   margin: 5px 20px -3px 0;
   float: right;
   font-size: 30px;
+  display: flex;
 }
 p img {
   opacity: 2;
@@ -92,13 +93,13 @@ p img {
 .headline {
   margin: 0 0 0 0;
   padding:10px;
-  border-bottom: 1px #ccc dotted;
+  /*border-bottom: 1px #ccc dotted;*/
   text-decoration: none;
   font-family: Arial;
   text-transform:uppercase;
   font-size: 16px;
   color: #333;
-  display:block;
+  /*display:block;*/
   float:left;
   z-index: 10;
 }
