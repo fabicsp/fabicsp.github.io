@@ -9,7 +9,3 @@
 * Try it with other game logic: Dont let the triple in a row :)
 * http://fabicsp.github.io/reverseticktacktoe
 
-### Country project to BlackSwan:
-* http://fabicsp.github.io/countries
-
-
